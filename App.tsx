@@ -38,7 +38,7 @@ const HomeScreen = ({ navigation }) => {
 
   return (
     <SafeAreaView style={[styles.container, themeStyles.background]}>
-      <Image source={{ uri: 'https://your-profile-pic-url.com' }} style={styles.profilePic} />
+      <Image source={require('./assets/478164164_8728803643890386_444915441217213441_n.jpg')} style={styles.profilePic} />
       <Text style={[styles.name, themeStyles.text]}>Yohann Nicholo Matibag</Text>
       <Text style={[styles.bio, themeStyles.text]}>
         Passionate student developer specializing in React, React Native, and Web Development.
